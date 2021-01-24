@@ -99,6 +99,15 @@ a, .fs1, .fs2 {
     font-size: 24px;
 }
 
+@supports (-webkit-text-stroke: 1px black) {
+    h1 {
+        color: #B79632;
+        font-size: 600%;
+        -webkit-text-stroke: 1px black;
+        -webkit-text-fill-color: #B79632;
+    }
+}
+
 a {
     text-decoration: none;
     z-index: 100;
@@ -121,7 +130,7 @@ a {
   </head>
 <body>
   <div class="content">
-    Forthcoming ...
+    <h1>Forthcoming ...</h1>
   </div> <!-- end content -->
 
   <div class="bg"></div>

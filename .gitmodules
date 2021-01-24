@@ -2,3 +2,6 @@
 	path = site
 	url = git@github.com:forgotten-tones/liner-notes.git
 	branch = site
+[submodule "assets"]
+	path = assets
+	url = https://github.com/forgotten-tones/assets.git
